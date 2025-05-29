@@ -17,7 +17,7 @@ print('''
 
 print("You wake up at an mysterious Island. Find a way to escape")
 print("You have two paths, Left and Right. The left looks Bushy and the right looks muddy")
-first_path = input('you\'re to choose between "Left" or "Right": ').lower()
+first_path = input('you\'re to choose between "Left" or "Right": \n').lower()
 
 if first_path == "left":
     print("You Tried to walk on quicksand and died.")
@@ -25,7 +25,7 @@ if first_path == "left":
 elif first_path == "right":
     print("You observe some dangerous looking cannibal tribes coming towards ur path.")
     print("Do u want to run away or hide in the bushes.")
-    sec_path = input('you\'re to choose between "Run" or "Hide": ').lower()
+    sec_path = input('you\'re to choose between "Run" or "Hide": \n').lower()
 
 
     if sec_path == "hide":
@@ -34,7 +34,7 @@ elif first_path == "right":
     elif sec_path == "run":
         print("You ran away from the cannibals.")
         print("You see a plane coming towards the island and also that there is a boat that is slowly drifting away from the island.")
-        third_path = input('you\'re to choose between "Boat" or "SOS": ').lower()
+        third_path = input('you\'re to choose between "Boat" or "SOS": \n').lower()
 
 
         if third_path == "sos":
