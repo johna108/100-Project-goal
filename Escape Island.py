@@ -46,6 +46,6 @@ elif first_path == "right":
         else:
             print("Please choose a valid option")
     else:
-        print("choose a valid option.")
+        print("please choose a valid option.")
 else:
     print("Choose a valid option.")
