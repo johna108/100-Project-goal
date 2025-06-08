@@ -1,4 +1,6 @@
+#rock paper scissors
 import random
+
 # Rock
 rock ="""
     _______
