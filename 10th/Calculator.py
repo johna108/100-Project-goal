@@ -26,7 +26,7 @@ def calculator():
         for op in operations:
             print(op)
         operation_symbol = input("Select from from the following: ")
-        num2 = int(input("Enter the next number: "))
+        num2 = float(input("Enter the next number: "))
         answer = operations[operation_symbol](num1,num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}")
 
